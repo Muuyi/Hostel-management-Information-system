@@ -1,0 +1,82 @@
+^{
+	margin:0px;
+	padding:0px;
+}
+/*//////////////////////////////////////HOSTELS HOME PAGE STYLING/////////////////////*/
+	.contacts{
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		text-align:center;
+		color:#000;
+		line-height:100%;
+	}
+	.card-title{
+		font-weight:bolder;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		margin:0px;
+		padding:0px;
+	}
+	.fa-bars{
+		color:#fff;
+		font-size:30px;
+	}
+	.slideshow{
+		width:100%;
+	}
+/*ROOMS SECTION*/
+	#room_header{
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+
+	}
+/*Styling in small devices*/
+	@media only screen and (max-width:576px){
+		.hostel_desc_content{
+			display:none;
+		}
+		.hidden{
+			display:none;
+		}
+		.contact{
+			display:none;
+		}
+
+	}
+/*Styling in medium devices*/
+@media only screen and (max-width:768px){
+	.hidden-md{
+		display:none;
+	}
+}
+	.sidebar{
+		position: relative;
+		height: 100%;
+	}
+	.sidebar-inner {
+		width: 100%;
+		position: absolute;
+		}
+	.sidebar2{
+		position: relative;
+		height: 100%;
+	}
+	.sidebar-inner2 {
+		width: 100%;
+		position: absolute;
+		}
+	h1{
+		font-size:2em;
+	}
+/*//////////////////////////////////////HOSTELS GALLERY SECTION STYLING////////////////*/
+	.flex-box{
+		display:flex;
+		align-items:center;
+	}
+/*///////////////////CONTACT PAGE STYLING*/
+	.intl-tel-input{
+		width:100%;
+	}

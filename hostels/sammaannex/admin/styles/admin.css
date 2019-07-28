@@ -1,0 +1,35 @@
+*{margin:0px; padding:0px;}
+#AdminBody{background-image: url(../../../images/md1.JPG); background-size:cover;}
+#AdminHeader{width:100%; margin:auto; border-bottom:10px groove #00008B;}
+#AdminSection{width:100%; margin:auto; margin-top:0px; height:800px; background-color:#FFFFFF;}
+#MainArticle {width:75%; float:left; height:1000px; overflow:scroll; padding:20px;}
+#AdminAside{width:20%; float:right; height:1000px;  background-color:#ff4500; border-left:10px groove #00008B; text-align:center;}
+h1{font-weight:bolder; font-size:40px;}
+#AdminAside a{font-size:30px; color:#FFD700; text-decoration:none; background-image: url(images/md1.JPG)}
+#AdminAside a:hover{font-weight:bolder; text-decoration:underline;}
+.AdminInput{width:500px; font-size:20px; border:2px solid #808080; border-radius:5px; padding:3px;}
+#AdminSubmit{font-size:20px; padding:5px; background-color:#F4A460; color:#FFFFF0; border-radius:5px;}
+#AdminSubmit:hover {font-weight:bolder; background-color:#A52A2A; cursor:pointer;}
+.AdminUser{font-weight:bolder; font-size:30px;}
+.cTable{border-collapse:collapse; text-align:center;}
+.cTable th td{border:2px solid #000000;}
+.clientSubmit{font-size:20px; background-color:#0000FF; color:#FFFFFF; padding:5px; border-radius:5px;}
+.clientSubmit:hover{font-weight:bolder; cursor:pointer; background-color:#00008B;}
+/*==================================================================================================================
+													LOG IN SECTION
+====================================================================================================================*/
+#LogSection{width:50%; height:500px; background-color:#F4A460; margin:auto; margin-top:100px; opacity:0.9; text-align:center; border-radius:5px;}
+/*============================================================================================================
+								ADMINISTRATOR STYLING
+==============================================================================================================*/
+.check{background-color:brown; border-radius:5px; padding:3px; cursor:pointer; color:#FFFFFF;}
+/*===============================================================================================================
+								CLIENT PAGE STYLING
+=================================================================================================================*/
+.search{width:40%; font-size:20px; padding:10px; border-top-left-radius:10px; border-bottom-left-radius:10px; border-right:none; outline:none; border:3px #808080 solid;}
+.submit{font-size:20px; padding:10px; border-top-right-radius:10px; border-bottom-right-radius:10px; outline:none; border:3px #808080 solid; cursor:pointer; background-color:#D2691E; color:#FFFFFF;}
+.forms{float:left; padding:10px;}
+.button{cursor:pointer; background-color:#A52A2A; color:#FFFFFF;}
+.cDetails tr th{float:left;}
+.cDetails tr td{padding-left:20px; border-left:#D3D3D3;}
+.cDetails tr {}

@@ -1,0 +1,231 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.intl-tel-input{
+		width:100%;
+}
+/*/////////////////////////////////////////STYLING THE ADMIN SECTION FOR SMALL DEVICES//////*/
+#menu.on #one {
+	transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+#menu.on #two {
+	opacity:0;
+}
+#menu.on #three {
+	transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+h5{
+	font-weight:bolder;
+	text-align:center;
+	color:#FFFFFF;
+}
+.AdminUser{
+		font-family:'Open Sans';
+		font-weight:bolder;
+		padding:5px;
+		display:inline-block;
+		border:solid 2px #FFFFFF;
+		box-sizing:border-box;
+		font-size:20px;
+		color:#FFFFFF;
+		/*white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		/*margin-bottom:10px;
+		margin-top:30px;*/
+
+	}
+@media only screen and (max-width:767.9999px){
+	#adminMenu{
+		position:fixed;
+		top:0px;
+		left:0px;
+		width:50%;
+		height:100vh;
+		background-color:#ff4500;
+		z-index:9999;
+		overflow:scroll;
+	}
+	#adminContent{
+		width:100%;
+	}
+	.menu{
+		position:relative;
+		z-index:33;
+		padding:0px 10px 40px 0px;
+		background-color:#ff4500;
+		font-size:20px;
+		font-weight:bolder;
+		color:#ffffff;
+		cursor:pointer;
+		display:visible;
+	}
+	#menu{
+		width:40px;
+		height:40px;
+		cursor:pointer;
+		float:right;
+		transition: all 0.3s ease-out;
+	}
+	#menu .span{
+		height:5px;
+		background:#FFF;
+		transition:all 0.3s ease-out;
+		margin:5px auto;
+	}
+	#menu_close{
+		text-align:right;
+	}
+	.fa-times{
+		cursor:pointer;
+		text-align:right;
+		font-size:30px;
+		color:#fff;
+	}
+	/*.fa-times{
+		position:absolute;
+		top:5px;
+		right:5px;
+		font-size:25px;
+		color:#fff;
+		margin:10px;
+	}*/
+
+
+}
+@media only screen and (max-width:468px){
+	#adminMenu{
+		width:80%; 
+	}
+}
+@media only screen and (min-width:768px){
+	#adminMenu{
+		position:fixed;
+		width:20%;
+		height:100vh;
+		background-color:#ff4500;
+		float:left;
+		box-sizing:border-box;
+		border-right:10px groove #00008B;
+		overflow:scroll;
+	}
+	#menu_close{
+		display:none;
+	}
+	#adminContent{
+		width:80%;
+		padding-left:20px;
+		float:right;
+		box-sizing:border-box;
+	}
+	.menu{
+		background-color:#ff4500;
+		font-size:20px;
+		font-weight:bolder;
+		color:#ffffff;
+		cursor:pointer;
+		display:none;
+	}
+}
+/*////////////////////////////////////////////ADMIN SECTION STYLING///////////////////////*/
+/*//////////////////ADMIN SIDE BAR STYLING*/
+	.menu i{
+		float:right;
+		padding-right:20px;
+		font-size:30px;
+	}
+	.menu-text{
+		padding-left:20px;
+	}
+	.col{
+		width:100%;
+		box-sizing:border-box;
+		padding:0px;
+		margin:0px;
+	}
+	.admin-sidebar{
+		position: relative;
+		overflow:scroll;
+		width:20%;
+		float:left;
+		height: 100%;
+		background-color:#ff4500;
+		border-right:10px groove #00008B;
+	}
+	.admin-sidebar-inner {
+		width: 100%;
+		position: absolute;
+	}
+	#adminNav{
+		width:100%;
+	}
+	#adminNav ul li{
+		list-style-type:none;
+	}
+	#adminNav a{
+		font-size:20px;
+		color:#FFD700; 
+		text-decoration:none;
+		border-bottom:1px solid #808080;
+		display:block;
+		padding:5px 0px 5px 20px;
+	}
+	#adminNav a:hover{
+		background-color:#FFA500;
+		color:#FEF0D8;
+	}
+	/*#adminContent{
+		width:80%;
+		float:left;
+		box-sizing:border-box;
+		padding:10px;
+	}*/
+	#adminNav-ul ul{
+		display:none;
+	}
+	#adminNav-ul ul{
+		background-color:#A05220;
+	}
+	#adminNav-ul ul a:before{
+		content:'\203A';
+		margin-right:20px;
+	}
+	#adminNav li.tap ul{
+		display:block;
+	}
+	#adminNav .sub-arrow:after {
+		margin-right:20px;
+		font-size:20px;
+		content:'\203A';
+		float:right;
+		transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+	}
+	#adminNav li.tap .sub-arrow:after{
+		content:'\2039';
+		margin-right:20px;
+		font-size:20px;
+	}
+/*UPLOAD IMAGES SECTION STYLING*/
+	.drag_area{
+		width:100%;
+		text-align:center;
+		border:2px dashed #CCC;
+		padding:20px;
+		font-weight:bolder;
+		height:200px;
+		color:#ccc;
+	}
+	.drag_over{
+		color:#000;
+		border:2px dashed #000;
+		color:#000;
+	}
+/* ADMINS ROOMS SECTION STYLING*/
+	.room_image{
+		width:100%;
+		border:2px dashed #000000;
+		padding:5px;
+	}
